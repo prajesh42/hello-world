@@ -17,5 +17,10 @@ public class HelloWorldApplication {
 	public String getHello() {
 		return "Hello world";
 	}
+	
+	@RequestMapping("/hi")
+	public String getHi() {
+		return "hi bro";
+	}
 
 }
